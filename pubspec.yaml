@@ -1,5 +1,5 @@
 name: youtube_thumbnails
-description: A Dart package that will return the thumbnails for a Youtube video without using Youtube API.
+description: A Dart package that will return the thumbnails for a Youtube video without using the Youtube API.
 version: 0.0.1
 author: Mohamad A. <mohammed.abuelhagag@gmail.com>
 
