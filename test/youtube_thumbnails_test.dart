@@ -2,15 +2,15 @@ import 'package:youtube_thumbnails/youtube_thumbnails.dart';
 import 'package:test/test.dart';
 
 void main() {
-  group('A group of tests', () {
-    Awesome awesome;
+  // group('A group of tests', () {
+  //   YoutubeThumbnails awesome;
 
-    setUp(() {
-      awesome = Awesome();
-    });
+  //   setUp(() {
+  //     awesome = YoutubeThumbnails();
+  //   });
 
-    test('First Test', () {
-      expect(awesome.isAwesome, isTrue);
-    });
-  });
+  //   test('First Test', () {
+  //     expect(awesome.isAwesome, isTrue);
+  //   });
+  // });
 }
