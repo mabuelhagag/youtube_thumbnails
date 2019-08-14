@@ -1,6 +1,12 @@
+import 'dart:io';
+
 import 'package:youtube_thumbnails/youtube_thumbnails.dart';
 
 main() {
-  // var awesome = YoutubeThumbnails();
-  // print('awesome: ${awesome.isAwesome}');
+  YoutubeThumbnails ytThumbs = YoutubeThumbnails();
+  var urls = ytThumbs.getById('Bey4XXJAqS8');
+  
+  var maxResDefaultThumb = urls.maxResDefaultThumbnail;
+  print(maxResDefaultThumb);
+  Process.run('open', [maxResDefaultThumb]);
 }
