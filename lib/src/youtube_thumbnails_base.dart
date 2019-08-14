@@ -1,4 +1,14 @@
-// TODO: Put public facing types in this file.
+class ThumbnailsURLs {
+  List<String> thumbnails;
+  List<String> mqThumbnails;
+  List<String> hqThumbnails;
+
+  String fullSizeDefaultThumbnail;
+  String sdDefaultThumbnail;
+  String mqDefaultThumbnail;
+  String hqDefaultThumbnail;
+  String maxResDefaultThumbnail;
+}
 
 /// Checks if you are awesome. Spoiler: you are.
 class Awesome {
